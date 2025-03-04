@@ -1,0 +1,10 @@
+ul{
+  list-style-type: none;
+}
+li{
+  display:inline;
+  margin-left: 10px;
+}
+.clickCount{
+  text-align: center;
+}
