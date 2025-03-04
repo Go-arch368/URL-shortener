@@ -67,7 +67,7 @@ urlCltr.redirectToLongUrl = async (req, res) => {
       console.log("Geo lookup failed for IP:", ip);
     }
   
-    const deviceInfo = req.useragent; // Assuming `req.useragent` exists
+    const deviceInfo = req.useragent;
     //console.log("Device Info:", deviceInfo);
   
     const isMobile = deviceInfo?.isMobile || false;
